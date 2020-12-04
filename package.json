@@ -1,0 +1,24 @@
+{
+  "name": "magento-oauth-sample",
+  "version": "1.0.0",
+  "description": "Magento 2 OAuth Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Pavindu Lakshan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "oauth-1.0a": "^2.2.6",
+    "oauth-signature": "^1.5.0",
+    "uuid": "^8.3.1"
+  }
+}
